@@ -1,0 +1,82 @@
+[ng\:cloak], [ng-cloak], .ng-cloak{
+	display: none;
+}
+
+.input-spreadsheet tbody td{
+	padding: 0px;
+}
+
+.input-spreadsheet{
+	font-size:13px;
+}
+
+.spreadsheet-select #spreadsheet_select{
+	width: 50%;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.input-spreadsheet th {
+	margin: 0;
+	padding: 0;
+	border: 1.5px solid #ccc;
+}
+
+.input-spreadsheet th:not(:first-child) {
+	background-color: #eceeef;
+	text-align:center;
+}
+
+.input-spreadsheet td:first-child{
+	background-color: #eceeef;
+	width:3%;
+	text-align:center;
+}
+
+.input-spreadsheet{
+	width:95%;
+}
+
+.input-spreadsheet input{
+	display: block;
+	padding: 1px;
+	margin: 0;
+	border: 0;
+	width: 100%;
+	
+}
+.input-spreadsheet td {
+	margin: 0;
+	padding: 0;
+	border: 1.5px solid #ccc;
+}
+
+.spreadsheet-select{
+	margin: 5px;
+}
+
+[ng-model="spreadhseetName"]{
+	display: inline-block;
+	width: 40%;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+
+.formula-input-group{
+		margin-top: 20px;
+    font-size: 13px;
+    width: 95%;
+}
+
+.formula-form-label{
+	 font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.input-spreadsheet th.active, .input-spreadsheet td.active{
+	background-color: #ccc;
+}
+
+.notification-message{
+	margin-top: 10px;
+}

@@ -1,0 +1,9 @@
+language: java
+before_install: cd spreadsheettool
+notifications:
+  email:
+    - 16roma16@gmail.com
+jdk:
+  oraclejdk8
+deploy:
+  provider: s3
